@@ -16,7 +16,7 @@ import {
 } from "recharts";
 
 const SHEET_ID = "1scqI8Kdz7VKLP9933Q-J3rqOCNgUaYFOT1nqsNwqIWk";
-const GID = "0";
+const GID = "1225653054";
 const CSV_URL = `https://docs.google.com/spreadsheets/d/${SHEET_ID}/export?format=csv&gid=${GID}`;
 
 type Row = Record<string, string>;
